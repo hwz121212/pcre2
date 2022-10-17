@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0_thirdparty", "0_thirdparty", "{5E0B233C-B303-43C3-B705-DF551AB123C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{C07E80F2-834E-42CB-B07E-AF4B42F2FB38}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre2", "thirdparty\pcre2-10.40\libpcre2.vcxproj", "{647FC820-E8BC-311B-A785-1D950EEE347F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre2-posix", "thirdparty\pcre2-10.40\libpcre2-posix.vcxproj", "{133FDAF7-1AA9-3045-AA14-0938D529B41C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre2grep", "demo\pcre2grep\pcre2grep.vcxproj", "{6BC758A1-2F62-33F4-BB76-856D31C07C63}"
+	ProjectSection(ProjectDependencies) = postProject
+		{647FC820-E8BC-311B-A785-1D950EEE347F} = {647FC820-E8BC-311B-A785-1D950EEE347F}
+		{133FDAF7-1AA9-3045-AA14-0938D529B41C} = {133FDAF7-1AA9-3045-AA14-0938D529B41C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre2test", "demo\pcre2test\pcre2test.vcxproj", "{84C73226-F475-3E63-A44F-017AE747316A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{647FC820-E8BC-311B-A785-1D950EEE347F} = {647FC820-E8BC-311B-A785-1D950EEE347F}
+		{133FDAF7-1AA9-3045-AA14-0938D529B41C} = {133FDAF7-1AA9-3045-AA14-0938D529B41C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647FC820-E8BC-311B-A785-1D950EEE347F}.Debug|x64.ActiveCfg = Debug|x64
+		{647FC820-E8BC-311B-A785-1D950EEE347F}.Debug|x64.Build.0 = Debug|x64
+		{647FC820-E8BC-311B-A785-1D950EEE347F}.Release|x64.ActiveCfg = Release|x64
+		{647FC820-E8BC-311B-A785-1D950EEE347F}.Release|x64.Build.0 = Release|x64
+		{133FDAF7-1AA9-3045-AA14-0938D529B41C}.Debug|x64.ActiveCfg = Debug|x64
+		{133FDAF7-1AA9-3045-AA14-0938D529B41C}.Debug|x64.Build.0 = Debug|x64
+		{133FDAF7-1AA9-3045-AA14-0938D529B41C}.Release|x64.ActiveCfg = Release|x64
+		{133FDAF7-1AA9-3045-AA14-0938D529B41C}.Release|x64.Build.0 = Release|x64
+		{6BC758A1-2F62-33F4-BB76-856D31C07C63}.Debug|x64.ActiveCfg = Debug|x64
+		{6BC758A1-2F62-33F4-BB76-856D31C07C63}.Debug|x64.Build.0 = Debug|x64
+		{6BC758A1-2F62-33F4-BB76-856D31C07C63}.Release|x64.ActiveCfg = Release|x64
+		{6BC758A1-2F62-33F4-BB76-856D31C07C63}.Release|x64.Build.0 = Release|x64
+		{84C73226-F475-3E63-A44F-017AE747316A}.Debug|x64.ActiveCfg = Debug|x64
+		{84C73226-F475-3E63-A44F-017AE747316A}.Debug|x64.Build.0 = Debug|x64
+		{84C73226-F475-3E63-A44F-017AE747316A}.Release|x64.ActiveCfg = Release|x64
+		{84C73226-F475-3E63-A44F-017AE747316A}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{647FC820-E8BC-311B-A785-1D950EEE347F} = {5E0B233C-B303-43C3-B705-DF551AB123C4}
+		{133FDAF7-1AA9-3045-AA14-0938D529B41C} = {5E0B233C-B303-43C3-B705-DF551AB123C4}
+		{6BC758A1-2F62-33F4-BB76-856D31C07C63} = {C07E80F2-834E-42CB-B07E-AF4B42F2FB38}
+		{84C73226-F475-3E63-A44F-017AE747316A} = {C07E80F2-834E-42CB-B07E-AF4B42F2FB38}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57B26644-CCA0-3BF3-AA06-E68F66A07CAA}
+	EndGlobalSection
+EndGlobal
