@@ -48,6 +48,7 @@ POSSIBILITY OF SUCH DAMAGE.
 #include "pcre2_config.h"
 #endif
 
+
 #include <ctype.h>
 #include <locale.h>
 #include <stdio.h>
@@ -60,7 +61,7 @@ POSSIBILITY OF SUCH DAMAGE.
 
 #if (defined _WIN32 || (defined HAVE_WINDOWS_H && HAVE_WINDOWS_H)) \
   && !defined WIN32 && !defined(__CYGWIN__)
-#define WIN32
+//#define WIN32
 #endif
 
 /* Some CMake's define it still */
