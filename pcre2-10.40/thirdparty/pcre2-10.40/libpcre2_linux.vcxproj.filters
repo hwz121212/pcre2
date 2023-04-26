@@ -206,8 +206,5 @@
     <ClCompile Include="src\pcre2_ucptables.c">
       <Filter>Source Files\except</Filter>
     </ClCompile>
-    <ClCompile Include="src\pcre2demo.c">
-      <Filter>Source Files\except</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
