@@ -19,6 +19,11 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre2test", "demo\pcre2test
 		{647FC820-E8BC-311B-A785-1D950EEE347F} = {647FC820-E8BC-311B-A785-1D950EEE347F}
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre2demo", "demo\pcre2demo\pcre2demo.vcxproj", "{3881F8CB-64A6-4223-B695-C28852E38040}"
+	ProjectSection(ProjectDependencies) = postProject
+		{647FC820-E8BC-311B-A785-1D950EEE347F} = {647FC820-E8BC-311B-A785-1D950EEE347F}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -37,6 +42,10 @@ Global
 		{84C73226-F475-3E63-A44F-017AE747316A}.Debug|x64.Build.0 = Debug|x64
 		{84C73226-F475-3E63-A44F-017AE747316A}.Release|x64.ActiveCfg = Release|x64
 		{84C73226-F475-3E63-A44F-017AE747316A}.Release|x64.Build.0 = Release|x64
+		{3881F8CB-64A6-4223-B695-C28852E38040}.Debug|x64.ActiveCfg = Debug|x64
+		{3881F8CB-64A6-4223-B695-C28852E38040}.Debug|x64.Build.0 = Debug|x64
+		{3881F8CB-64A6-4223-B695-C28852E38040}.Release|x64.ActiveCfg = Release|x64
+		{3881F8CB-64A6-4223-B695-C28852E38040}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +54,7 @@ Global
 		{647FC820-E8BC-311B-A785-1D950EEE347F} = {5E0B233C-B303-43C3-B705-DF551AB123C4}
 		{6BC758A1-2F62-33F4-BB76-856D31C07C63} = {C07E80F2-834E-42CB-B07E-AF4B42F2FB38}
 		{84C73226-F475-3E63-A44F-017AE747316A} = {C07E80F2-834E-42CB-B07E-AF4B42F2FB38}
+		{3881F8CB-64A6-4223-B695-C28852E38040} = {C07E80F2-834E-42CB-B07E-AF4B42F2FB38}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {57B26644-CCA0-3BF3-AA06-E68F66A07CAA}

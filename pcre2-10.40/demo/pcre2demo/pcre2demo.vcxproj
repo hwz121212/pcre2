@@ -11,11 +11,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{6BC758A1-2F62-33F4-BB76-856D31C07C63}</ProjectGuid>
+    <ProjectGuid>{3881F8CB-64A6-4223-B695-C28852E38040}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
     <Platform>x64</Platform>
-    <ProjectName>pcre2grep</ProjectName>
+    <ProjectName>pcre2demo</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -96,9 +96,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="pcre2grep.c" />
+    <ClCompile Include="pcre2demo.c" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
