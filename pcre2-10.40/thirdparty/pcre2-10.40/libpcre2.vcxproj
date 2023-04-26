@@ -85,6 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="include\pcre2.h" />
+    <ClCompile Include="src\pcre2posix.c" />
     <ClCompile Include="src\pcre2_auto_possess.c" />
     <ClCompile Include="src\pcre2_chartables.c" />
     <ClCompile Include="src\pcre2_compile.c" />
@@ -112,7 +113,13 @@
     <ClCompile Include="src\pcre2_ucd.c" />
     <ClCompile Include="src\pcre2_valid_utf.c" />
     <ClCompile Include="src\pcre2_xclass.c" />
+    <ClInclude Include="include\pcre2posix.h" />
     <ClInclude Include="include\pcre2_config.h" />
+    <ClInclude Include="include\pcre2_internal.h" />
+    <ClInclude Include="include\pcre2_intmodedep.h" />
+    <ClInclude Include="include\pcre2_jit_neon_inc.h" />
+    <ClInclude Include="include\pcre2_jit_simd_inc.h" />
+    <ClInclude Include="include\pcre2_ucp.h" />
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
