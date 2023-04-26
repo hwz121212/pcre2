@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libpcre2", "thirdparty\pcre
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1_demo", "1_demo", "{A600FB79-B381-49D4-A8BA-B37C2F973EE0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pcre2grep", "demo\pcre2grep\pcre2grep_linux.vcxproj", "{11DBE532-0E32-4D83-AC99-0646CAD3FB9D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -19,12 +21,17 @@ Global
 		{791642ED-9E59-4F42-927B-3562F869D9C1}.Debug|x64.Build.0 = Debug|x64
 		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.ActiveCfg = Release|x64
 		{791642ED-9E59-4F42-927B-3562F869D9C1}.Release|x64.Build.0 = Release|x64
+		{11DBE532-0E32-4D83-AC99-0646CAD3FB9D}.Debug|x64.ActiveCfg = Debug|x64
+		{11DBE532-0E32-4D83-AC99-0646CAD3FB9D}.Debug|x64.Build.0 = Debug|x64
+		{11DBE532-0E32-4D83-AC99-0646CAD3FB9D}.Release|x64.ActiveCfg = Release|x64
+		{11DBE532-0E32-4D83-AC99-0646CAD3FB9D}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{791642ED-9E59-4F42-927B-3562F869D9C1} = {EBBBC5AB-E662-45E5-BA81-FB445F6B829F}
+		{11DBE532-0E32-4D83-AC99-0646CAD3FB9D} = {A600FB79-B381-49D4-A8BA-B37C2F973EE0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {5806D430-DEB4-4E2B-8838-C80B410D7661}
